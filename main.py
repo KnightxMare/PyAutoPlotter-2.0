@@ -1,12 +1,14 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+
 print("1.Line Chart")
 print("2.Bar Chart")
 print("3.Histogram")
 print("4.Barh")
 ch=int(input("Please input the graph you want to plot: "))
-#Line Chart
+
+# Line Chart
 if ch==1:
    xliv1=input("X Values: ")
    yvli1 = input("Y Values: ")
@@ -26,6 +28,7 @@ if ch==1:
    plt.title(lit)
    plt.plot(sx,sy)
    plt.show()
+
 #Bar Chart
 if ch==2:
    xvbc1=input("X Values: ")
@@ -41,6 +44,7 @@ if ch==2:
    plt.ylabel(yl)
    plt.title(bct)
    plt.show()
+
 #Histogram
 if ch==3:
    xvh=input("X Values: ")

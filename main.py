@@ -1,5 +1,6 @@
 #Importing Libraries
 import matplotlib.pyplot as plt
+from more_itertools import peekable
 import pandas as pd
 import numpy as np
 
@@ -61,3 +62,6 @@ if ch==3:
    plt.ylabel(yl)
    plt.title(ht)
    plt.show()
+
+else: 
+   print('Invalid Integer')

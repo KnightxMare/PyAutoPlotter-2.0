@@ -1,6 +1,5 @@
 #Importing Libraries
 import matplotlib.pyplot as plt
-from more_itertools import peekable
 import pandas as pd
 import numpy as np
 
@@ -10,7 +9,8 @@ print("3.Histogram")
 print("4.Barh")
 ch=int(input("Please input the graph you want to plot: "))
 
-# Line Chart
+
+#  Line Chart
 if ch==1:
    xliv1=input("X Values: ")
    yvli1 = input("Y Values: ")
@@ -65,3 +65,7 @@ if ch==3:
 
 else: 
    print('Invalid Integer')
+
+c1=[0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,'x']
+c2=[0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,'y']
+plt.plot(c1,c2,linecolor='white')
